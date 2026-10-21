@@ -1,6 +1,7 @@
-console.log("Hello");
-console.log("World");
-
-
-process.stdout.write("Hello "); // it is not a windows function this is the node environment part
-process.stdout.write("World");
+let arr = [];
+arr.push(100);
+arr.push(true);
+arr.push(10);
+arr.push({a:20});
+console.log(arr);
+console.log(arr[1]);
