@@ -75,7 +75,7 @@ console.log("two pointer algo: ",arr4);
 let arr = [-1, 3, -55,-33, 43,21,-12,432, -5];
 let i=0, j=0;
 while(i<arr.length){
-    if(i<0){
+    if(arr[i] < 0){
         let temp = arr[i]
         arr[i]= arr[j]
         arr[j] = temp
